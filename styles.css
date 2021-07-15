@@ -1,0 +1,172 @@
+/* <!-- Hey! element inspector... This Site Design and Developed By Vishwa Udugama --> */
+
+
+*{
+    margin: 0%;
+
+}
+
+html{
+    height: 100%;
+
+}
+
+body{
+    background-image: linear-gradient( rgba(218,0,59,0.8) 0%, rgba(205,0,255,0.8) 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.buttonLocation{
+    text-align: center;
+}
+
+.percentageShow{
+    width: 50%;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto 0 auto;
+    padding: 0.5% ;
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+
+}
+
+.quoteShow{
+    width: 50%;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 1% auto  auto;
+    padding: 0.5% ;
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+}
+
+
+
+.mainContent{
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.textarea{
+    width: 20%;
+    margin: 0 auto 0 auto;
+}
+
+.namebox{
+    border-radius: 50px;
+    margin: 2%;
+    padding: 2% 0% 2% 0%;
+    border:1px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    box-shadow: none;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    
+}
+
+.namebox:focus{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.buttonLocation{
+    margin: 3%;
+
+
+}
+
+.submitButton {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    background: rgb(255, 255, 255);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Abril Fatface';
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+    
+  }
+  
+  .submitButton:hover {
+    color: rgb(0, 0, 0);
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+
+.resetButton{
+    
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.8);
+        background: rgb(255, 255, 255);
+        padding: 15px 40px;
+        border-radius: 4px;
+        font-weight: normal;
+        transition: all 0.2s ease-in-out;
+        font-family: 'Abril Fatface';
+        font-size: 1.2rem;
+        /* visibility: hidden; */
+        display: none;
+        width: 50%;
+        margin: 0% auto 0% auto;
+        text-transform: uppercase;
+
+      }
+
+
+
+.resetButton:hover {
+    color: rgb(0, 0, 0);
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+
+.fticon{
+    margin: 0.5%;
+}
+
+
+  .footerArea{
+      color: #ffffff;
+      margin-top: 10%;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+
+
+@media (max-width:1000px){
+    .textarea{
+        width: 70%;
+        margin: 0 auto 0 auto;
+    }
+
+    .buttonLocation{
+        margin: 8%;
+    
+    }
+
+    .quoteShow, .percentageShow {
+        width: 70%;
+        padding: 5%;
+
+    }
+    
+}
